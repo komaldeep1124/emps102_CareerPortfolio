@@ -1,5 +1,5 @@
 {
-  "name": "lesson3-part3",
+  "name": "assignment1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
     "morgan": "~1.9.0",
     "popper.js": "^1.14.7"
   },
-  "description": "express gernerator demo",
+  "description": "Express Portfolio",
   "main": "server.js",
   "author": "",
   "license": "ISC"
