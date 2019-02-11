@@ -43,9 +43,20 @@ body {
     cursor: pointer;
 
   }
+  .info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color:white;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width:450px;
+    height: 200px; 
+
+  }
   
   .right {
-
     font-family: serif;
     font-weight: bold;
     color:white;
@@ -63,6 +74,25 @@ body {
     padding: 20px; 
     width: 800px;
     height: 130px; 
+  }
+  .contact{
+    font-family: serif;
+    font-weight: bold;
+    color:white;
+    font-style: italic;
+    font-size: 20px;
+    text-align: right
+  }
+  .text{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  .explain
+  {
+    font-size: 15px;
+    color: #C0C0C0;
+    font-style: italic;
   }
   .button {
     background-color: #06273C;
