@@ -1,20 +1,38 @@
 /*custom css goes here*/
 
-body {
-    background-color: #3b5998;
-  }
+
+
+
   .jumbotron
   {
     background-color:transparent
   }
-   
+  #share {
+	width: 100%;
+  	margin: 100px auto;
+  	text-align: center;
+}
+  #share i {
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
  
   h1 {
     color: white;
     text-align: center;
     font-family: serif;
     font-style: italic;
-    background-color: #06273C
+    background-color: #3b5998
+
+  }
+  .program{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
 
   }
   h2 {
@@ -24,13 +42,13 @@ body {
     font-size: 30px;
     border-radius: 200px;
     padding: 50px 60px;
-    height: 350px;
-    background-color: black
+    height: 300px;
+    background-color: #212529;
 
   }
   .resume
   {
-    background-color: #06273C;
+    background-color:#3b5998;
     border: none;
     color: whitesmoke;
     padding: 10px 32px;
@@ -47,7 +65,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     text-align: left;
-    color:white;
+    font-weight: bold;
+    color:#3b5998;
     border-radius: 25px;
     border: 2px solid black;
     padding: 20px; 
@@ -59,10 +78,15 @@ body {
   .right {
     font-family: serif;
     font-weight: bold;
-    color:white;
+    color: #3b5998;
     font-style: italic;
     font-size: 15px;
     text-align: right
+  }
+
+  .center{
+    align-content: justify;
+
   }
   .left {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,24 +102,24 @@ body {
   .contact{
     font-family: serif;
     font-weight: bold;
-    color:white;
+    color:#3b5998;
     font-style: italic;
     font-size: 20px;
     text-align: right
   }
   .text{
     font-size: 30px;
-    color: whitesmoke;
+    color: #3b5998;
     font-weight: bold;
   }
   .explain
   {
     font-size: 15px;
-    color: #C0C0C0;
+    color: #3b5998;
     font-style: italic;
   }
   .button {
-    background-color: #06273C;
+    background-color: #3b5998;
     border: none;
     color: whitesmoke;
     padding: 10px 32px;
@@ -107,8 +131,9 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
+  
 
 .footer{
-    background-color: #06273C;
+    background-color: #3b5998;
     vertical-align:bottom;
 }
