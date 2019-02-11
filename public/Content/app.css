@@ -1,1 +1,84 @@
 /*custom css goes here*/
+
+body {
+    background-color: #3b5998;
+  }
+  .jumbotron
+  {
+    background-color:transparent
+  }
+   
+ 
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    background-color: #06273C
+
+  }
+  h2 {
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    border-radius: 200px;
+    padding: 50px 60px;
+    height: 350px;
+    background-color: black
+
+  }
+  .resume
+  {
+    background-color: #06273C;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  
+  .right {
+
+    font-family: serif;
+    font-weight: bold;
+    color:white;
+    font-style: italic;
+    font-size: 15px;
+    text-align: right
+  }
+  .left {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color:white;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 800px;
+    height: 130px; 
+  }
+  .button {
+    background-color: #06273C;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.footer{
+    background-color: #06273C;
+    vertical-align:bottom;
+}
