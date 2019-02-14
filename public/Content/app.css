@@ -61,6 +61,18 @@
     cursor: pointer;
 
   }
+  .mission{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color:#3b5998;
+    border-radius: 125px;
+    border: 3px solid black;
+    padding: 40px; 
+    width:900px;
+    height: 250px; 
+  }
   .info{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -105,7 +117,7 @@
     color:#3b5998;
     font-style: italic;
     font-size: 20px;
-    text-align: right
+   
   }
   .text{
     font-size: 30px;
