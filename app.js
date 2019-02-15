@@ -1,8 +1,14 @@
+/*File name- app.js*/
+/*Name-Komaldeep Kaur*/
+/*student ID:300926834*/
+/*DATE-2-15-19*/
+
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
+//routers
 let indexRouter = require('./routes/index');
 let aboutRouter = require('./routes/about');
 let serviceRouter = require('./routes/services');
