@@ -39,6 +39,7 @@
   h2 {
     color: white;
     text-align: center;
+    font-weight: bold;
     font-family: serif;
     font-size: 40px;
     border-radius: 250px;
@@ -47,7 +48,7 @@
 
   }
   
-  .mission{
+  .mission{  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     text-align: center;
@@ -78,7 +79,7 @@
     font-weight: bold;
     color: #3b5998;
     font-style: italic;
-    font-size: 15px;
+    font-size: 20px;
     text-align: right
   }
 
@@ -112,6 +113,7 @@
     color:#3b5998;
     font-style: italic;
     font-size: 70px;
+    border-radius: 35px;
    
   }
   .explain
@@ -170,8 +172,11 @@
     color: #3b5998;
   }
   
+  
+  
 
 .footer{
+  text-align:center;
     background-color: #3b5998;
     vertical-align:bottom;
 }
