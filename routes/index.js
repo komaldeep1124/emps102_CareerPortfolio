@@ -6,10 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
-/* GET about page. */
-router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About' });
-});
+
 
 /* GET products page. */
 router.get('/project', function(req, res, next) {
@@ -17,8 +14,8 @@ router.get('/project', function(req, res, next) {
 });
 
 /* GET services page. */
-router.get('/services', function(req, res, next) {
-  res.render('services', { title: 'Services' });
+router.get('/academic', function(req, res, next) {
+  res.render('academic', { title: 'Academics' });
 });
 
 /* GET contact page. */

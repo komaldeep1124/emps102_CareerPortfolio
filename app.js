@@ -10,8 +10,8 @@ let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 //routers
 let indexRouter = require('./routes/index');
-let aboutRouter = require('./routes/about');
-let serviceRouter = require('./routes/services');
+
+let academicRouter = require('./routes/academic');
 let projectRouter = require('./routes/project');
 let contactRouter = require('./routes/contact');
 
@@ -29,8 +29,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 app.use('/', indexRouter);
-app.use('/about', aboutRouter);
-app.use('/services', serviceRouter);
+
+app.use('/academic', academicRouter);
 app.use('/project', projectRouter);
 app.use('/contact', contactRouter);
 
